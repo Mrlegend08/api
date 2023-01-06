@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,135 @@
     <title>Contact</title>
     <link rel="stylesheet" href="./css/contact.css">
 </head>
+
 <body>
-    
+    <!--! HEADER START -->
+    <header class="site-header">
+        <div class="container">
+            <img class="site-header__image" src="/contact-images/contact-round-bg.svg" alt="">
+            <div class="site-header__wrapper">
+                <div class="site-header__start-box">
+                    <a href="/contact.html"><img class="site-header__logotip" src="/contact-images/contact-logotip-img.svg" alt="" width="135" height="38"></a>
+                    <nav class="site-header__navbar">
+                        <ul class="site-header__list">
+                            <li class="site-header__list-item">
+                                <a class="site-header__list-item-link" href="/pricing.html">Pricing</a>
+                            </li>
+                            <li class="site-header__list-item">
+                                <a class="site-header__list-item-link" href="/pricing.html">About</a>
+                            </li>
+                            <li class="site-header__list-item">
+                                <a class="site-header__list-item-link" href="/pricing.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <a href="/contact.html" class="site-header__link-word">Schedule a Demo</a>
+                <img class="site-header__burger" src="/contact-images/burger.svg" alt="">
+            </div>
+        </div>
+        <div class="overlay">
+            <div class="modal-box">
+                <img src="/contact-images/close.svg" alt="" class="close-img">
+                <ul class="list-modal">
+                    <li class="list-modal-item">
+                        <a href="/pricing.html" class="modal-link">Pricing</a>
+                    </li>
+                    <li class="list-modal-item">
+                        <a href="/pricing.html" class="modal-link">About</a>
+                    </li>
+                    <li class="list-modal-item">
+                        <a href="/pricing.html" class="modal-link">Contact</a>
+                    </li>
+                </ul>
+                <a href="/contact.html" class="modal-btn">Schedule a Demo</a>
+            </div>
+        </div>
+    </header>
+    <!--! HEADER END  -->
+
+    <!--! MAIN START -->
+    <!--! HERO SECTION START -->
+    <section class="hero-setion">
+        <div class="container">
+            <div class="hero-setion__wrapper">
+                <h1 class="hero-section__title">Submit a help request and we’ll get in touch shortly.</h1>
+                <div class="start-end_wrapper">
+                    <div class="start_box">
+                        <form action="https://echo.htmlacademy.ru" method="post">
+                            <input class="name_input" type="text" name="name" aria-label="Enter name" placeholder="Name">
+                            <input class="email_input" type="Email" name="email" aria-label="Enter name" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email Address">
+                            <input class="text_input" type="text" name="name" aria-label="Enter tetx" placeholder="Text">
+                            <textarea class="txt_area" name="message" placeholder="Message"></textarea>
+                            <label class="labell" for="checkbox">
+                                <input class="input_radio" type="checkbox" name="select" id="radio"><span
+                                    class="title_input">Stay up-to-date with company announcements and updates to our
+                                    API</span>
+                            </label>
+                            <button class="btn" type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="end_box">
+                        <p class="end_box_title">Join the thousands of innovators already building with us</p>
+                        <div class="box_for_media">
+                            <div class="end_box_middle_box">
+                                <img class="middle_box_items" src="/contact-images/contact-tesla.svg" alt="">
+                                <img class="middle_box_items" src="/contact-images/microsoft.png" alt="">
+                                <img class="middle_box_items" src="/contact-images/php.png" alt="">
+                            </div>
+                            <div class="end_box_bottom_box">
+                                <img class="bottom_box_items" src="/contact-images/oracle.svg" alt="">
+                                <img class="bottom_box_items" src="/contact-images/google.svg" alt="">
+                                <img class="bottom_box_items" src="/contact-images/nvida.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! HERO SECTION END  -->
+
+    <!--! ARTICL START -->
+    <article class="articel">
+        <div class="container">
+            <div class="article_wrapper">
+                <h4 class="articl_titl">Ready to start?</h4>
+                <form class="forum" action="https://echo.htmlacademy.ru">
+                    <input class="input_article" type="email" name="email" placeholder="Enter email address">
+                    <button class="articl_btn" type="submit">Schedule a Demo</button>
+                </form>
+            </div>
+        </div>
+    </article>
+    <!--! ARTICL END   -->
+    <!--! MAIN END   -->
+    <footer class="footer-part">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="footer-start">
+                    <a href="/contact-images/"><img class="footer_logotip" src="/contact-images/footer-logotip.svg" alt=""></a>
+                    <ul class="footer-list">
+                        <li class="items-footer">
+                            <a href="/pricing.html" class="footer_link">Pricing</a>
+                        </li>
+                        <li class="items-footer">
+                            <a href="/pricing.html" class="footer_link">About</a>
+                        </li>
+                        <li class="items-footer">
+                            <a href="/pricing.html" class="footer_link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-end">
+                    <a class="footer_soc-net" href="https://www.facebook.com/"><img src="/contact-images/faceebock.svg" alt=""></a>
+                    <a class="footer_soc-net" href="https://www.facebook.com/"><img src="/contact-images/twatter.svg" alt=""></a>
+                    <a class="footer_soc-net" href="https://www.facebook.com/"><img src="/contact-images/linkidin.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/contact.js"></script>
 </body>
+
 </html>
