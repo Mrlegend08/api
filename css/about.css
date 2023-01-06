@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;500;700&family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;500;700&family=Roboto+Mono&display=swap");
 /* GENERAL */
 html {
   box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: "Arial", sans-serif;
-  background-color: #fff;
+  background-color: #F2F2F2;
 }
 
 img {
@@ -39,7 +39,6 @@ img {
   overflow: hidden;
 }
 
-
 /* CONTAINER */
 .container {
   max-width: 1150px;
@@ -51,8 +50,317 @@ img {
 
 a,
 li,
-ul{
-    text-decoration: none;
-    padding: 0;
-    list-style: none;
+ul {
+  text-decoration: none;
+  padding: 0;
+  list-style: none;
 }
+/******SITE HEADER STYLE START*******/
+.site_nav_logo:hover{
+  opacity: 0.7;
+  
+}
+.site_logo{
+  margin-right: 24px;
+}
+.site_header_start {
+  position: relative;
+  background: #f2f2f2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  
+  
+}
+
+.site_nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.bg_img{
+  position: absolute;
+  top:0;
+  right: calc(50% - 675px);
+}
+.nav_wraper{
+  display: flex;
+}
+.nav_item {
+  display: flex;
+  align-items: center;
+}
+.nav_text {
+  max-width: 51px;
+  width: 100%;
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  margin-left: 40px;
+}
+.nav_text:hover{
+  color: #5483a7;
+}
+.nav_text:active{
+  color: #96b5ce;
+}
+
+.site_nav_btn {
+  width: 173px;
+  height: 48px;
+  border: none;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+}
+
+.site_nav_btn:hover{
+  background: #DA6D97;
+box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+opacity: 0.7;
+}
+.site_nav_btn:active{
+  background: #d697af;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  opacity: 0.7;
+}
+.site_nav_btn_title{
+ 
+font-family: 'Public Sans';
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: -0.115385px;
+color: #FBFCFE;
+}
+@media only screen and (max-width: 768px){
+  .bg_img{
+  top:0;
+  right: calc(50% - 705px);
+  }
+  .site_nav_btn {
+    width: 173px;
+    height: 48px;
+   
+  }
+  .btn{
+    margin-left: 200px;
+  }
+
+  
+}
+/******SITE HEADER STYLE END*******/
+
+/******MAIN STYLE START******/
+
+/******EMPOWER SECTION START****/
+
+.site_main_start{
+
+  padding-top: 56px;
+  padding-bottom: 56px;
+  
+}
+.empower_section_start{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empower_section_title{
+width: 730px;
+font-family: 'DM Serif Display';
+font-weight: 400;
+font-size: 56px;
+line-height: 56px;
+letter-spacing: -0.430769px;
+color: #36536B;
+margin-left: 71px;
+margin-bottom: 56px;
+}
+
+
+.empover_section_item_wrapper{
+  display: flex;
+}
+.empover_section_item_wraper{
+  margin-top: 56px;
+  display: flex;
+  
+}
+
+.empower_section_item{
+width: 225px;
+font-family: 'DM Serif Display';
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: -0.246154px;
+margin-right: 30px;
+margin-left: 71px;
+color: #36536B;
+
+}
+.empower_section_desc{
+  width: 635px;
+  font-family: 'Public Sans';
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+color: #6C8294;
+}
+
+.empower_section_people_img{
+  width: 1440px;
+  height: 472px;
+  margin: 0 auto;
+  margin-top: 132px;
+  margin-bottom: 113px;
+
+}
+.bg_left_img{
+   
+ position: absolute;
+ left:calc(50% - 720px);
+ top: calc(50% - 125px);
+
+ z-index: -1;
+}
+
+
+/******EMPOWER SECTION END****/
+
+    /******NEMBERS SECTION START*********/
+.nembers_section_item{
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 72px;
+  flex-wrap: wrap;
+}
+.nembers_section_box{
+  margin-left: 30px;
+}
+
+  .linea{
+  width: 300px;
+  border: 1px solid #b2bac2;
+ 
+
+}
+
+.nembers_title{
+  font-family: 'Public Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #36536B;
+mix-blend-mode: normal;
+margin-top: 20px;
+margin-bottom: 20px;
+opacity: 0.7;
+}
+.number{
+  font-family: 'DM Serif Display';
+font-weight: 400;
+font-size: 56px;
+line-height: 72px;
+letter-spacing: -0.430769px;
+color: #BA4270;
+margin-bottom: 20px;
+}
+    /******NEMBERS SECTION END*********/
+    .aside-section {
+      margin-top: 100px;
+      margin-bottom: 96px;
+    }
+    
+    .aside-section-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .aside-section-title {
+      font-family: "DM Serif Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 56px;
+      letter-spacing: -0.369231px;
+      color: #36536b;
+    }
+    .aside-section-form {
+      position: relative;
+    }
+    .aside-section-inp {
+      width: 445px;
+      padding: 16px 0 14px 27px;
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      color: #36536b;
+      background-color: #fbfcfe;
+      box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+      border-radius: 24px;
+      border: none;
+      outline: none;
+    }
+    .aside-section-inp:placeholder-shown {
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      color: #36536b;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+    }
+    .aside-section-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 16px 24.5px 14px 26.5px;
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: -0.115385px;
+      color: #fbfcfe;
+      background-color: #ba4270;
+      border-radius: 24px;
+      border: none;
+    }
+  
+/******MAIN STYLE END******/
+/*****FOOTER START********/
+
+.site_foter_start{
+  background: #1B262F;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.social_img{
+  margin-left: 24px;
+}
+.nav_tex{
+  max-width: 51px;
+  width: 100%;
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  margin-left: 40px;
+}
+/*****FOOTER END********/
