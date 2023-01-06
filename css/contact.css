@@ -128,7 +128,7 @@
         align-items: center;
         max-width: 300px;
         position: fixed;
-        transform: translateX(850px);
+        transform: translateY(-850px);
         background-color: #1B262F;
         padding: 48px 27px 312px 27px;
         transition: 0.3s ease;
@@ -194,7 +194,7 @@
         }
     }
     
-    @media only screen and (max-width: 650px) {
+    @media only screen and (max-width: 680px) {
         .site-header__navbar {
             display: none;
         }
@@ -203,6 +203,9 @@
         }
         .site-header__burger {
             display: block;
+        }
+        .site-header__image {
+            display: none;
         }
     }
     /*****  MEDIA STYLE END   */
